@@ -8,7 +8,7 @@ const aisleData = [
     id: "intro",
     label: "Intro",
     title: "Intro",
-    subtitle: "From Manchester to Tesco through engineering, travel, and a reset in direction",
+    subtitle: "From Manchester to Tesco through engineering and a reset in direction",
     color: "#ee1c2e",
     position: [-13, 0, -5],
     shelfSize: [1.7, 4.8, 9.5],
@@ -19,7 +19,7 @@ const aisleData = [
       "After graduating in 2021, I spent three years travelling, which gave me time to broaden my perspective, build confidence, and think carefully about the kind of career I wanted to pursue.",
       "That period away from formal study helped me return with much more clarity about wanting to work in technology and build practical systems that people rely on every day.",
       "In 2024, I joined the Tesco Software Engineering Graduate Scheme and moved to London to begin that next chapter.",
-      "This portfolio tells the story of that transition: from engineering student, to traveller, to software engineering graduate building experience across different teams and problem spaces.",
+      "This portfolio tells the story of that transition: from engineering student to software engineering graduate building experience across different teams and problem spaces.",
     ],
     introPresentation: {
       kicker: "Opening Frame",
@@ -28,7 +28,7 @@ const aisleData = [
       story:
         "After graduating in 2021, I spent three years travelling. That period gave me time to broaden my perspective, build confidence, and think more carefully about the kind of work I wanted to do. By the time I returned, I had much more clarity that I wanted to work in technology and build systems that people use in everyday life.",
       transition:
-        "In 2024, I joined the Tesco Software Engineering Graduate Scheme and moved to London. This portfolio tells the story of that transition, from engineering student, to traveller, to software engineering graduate learning across stores, product teams, internal platforms, and large backend systems.",
+        "In 2024, I joined the Tesco Software Engineering Graduate Scheme and moved to London. This portfolio tells the story of that transition, from engineering student to software engineering graduate learning across stores, product teams, internal platforms, and large backend systems.",
       timeline: [
         { year: "2018-2021", text: "Studied Aerospace Engineering at the University of Sheffield" },
         { year: "2021-2024", text: "Travelled and took time to reset direction before starting my career" },
@@ -95,7 +95,7 @@ const aisleData = [
     markerOffset: [0, 0, -5.8],
     details: [
       "Labs was a team placement in Tesco Labs where we were asked to come up with a novel idea that would benefit Tesco and its customers, then turn it into a working MVP.",
-      "My team created a shopping list integration for Tesco Scan As You Shop, designed to improve the TSAYS experience and make in-store shopping more seamless.",
+      "My team created a shopping list integration for Tesco Scan as You Shop, designed to improve the TSAYS experience and make in-store shopping more seamless.",
       "We built the MVP for Android in Kotlin, which gave me exposure to a different platform and a different style of engineering work.",
       "This was where I first really learned how to work as an engineer in a team, including how to use git flows collaboratively and how to support and mentor others while building together.",
     ],
@@ -106,7 +106,7 @@ const aisleData = [
       cards: [
         {
           title: "What We Built",
-          body: "My team came up with a shopping list integration for Tesco Scan As You Shop. The idea was to make TSAYS more useful and connected by helping customers bring their planning directly into the in-store shopping journey.",
+          body: "My team came up with a shopping list integration for Tesco Scan as You Shop. The idea was to make TSAYS more useful and connected by helping customers bring their planning directly into the in-store shopping journey.",
         },
         {
           title: "Why It Was Valuable",
@@ -117,14 +117,14 @@ const aisleData = [
       spotlight: [
         "Kotlin",
         "Android",
-        "Tesco Scan As You Shop",
+        "Tesco Scan as You Shop",
         "MVP Prototyping",
         "Team Delivery",
       ],
       learningTitle: "What I Learned",
       learnings: [
         "How to work properly as an engineer inside a team rather than as an individual contributor",
-        "How to use git flows and collaborate safely on a shared codebase",
+        "How to use Git flows and collaborate safely on a shared codebase",
         "How to build an MVP from an idea and keep momentum around a product concept",
         "How to mentor and support others while still delivering technical work",
       ],
@@ -136,14 +136,14 @@ const aisleData = [
     id: "slots",
     label: "Slots",
     title: "Slots",
-    subtitle: "Frontend placement in LEGO, working on the Tesco website",
+    subtitle: "Frontend placement in LEGO, working on the Tesco Website",
     color: "#00a7e1",
     position: [2, 0, -5],
     shelfSize: [1.7, 4.8, 9.5],
     markerOffset: [0, 0, -5.8],
     details: [
-      "This was my frontend placement in LEGO, working on the Tesco website as part of an MFE project.",
-      "Within that, I worked in the Slots subteam looking after the page where customers book delivery and collection slots.",
+      "This was my frontend placement in LEGO, working on the Tesco Website as part of an MFE project.",
+      "Within that, I worked in the Slots Subteam looking after the page where customers book delivery and collection slots.",
       "It was my first experience working in a professional engineering team, so it gave me a strong foundation in how software is built and delivered in a real product environment.",
       "Through this placement, I learned agile ways of working, coding standards, team processes, and the day-to-day expectations of contributing to a production codebase.",
       "It was also where I started to understand how a user-facing feature fits into a wider platform, and how small frontend decisions can affect customer experience at scale.",
@@ -151,7 +151,7 @@ const aisleData = [
     presentation: {
       kicker: "Placement Focus",
       overview:
-        "My Slots placement was a frontend role in LEGO, working on the Tesco website as part of an MFE project. Within that setup, I worked in the Slots subteam, which looked after the page where customers choose delivery and Click+Collect slots.",
+        "My Slots placement was a frontend role in LEGO, working on the Tesco Website as part of an MFE project. Within that setup, I worked in the Slots Subteam, which looked after the page where customers choose delivery and Click+Collect slots.",
       cards: [
         {
           title: "What The Team Owned",
@@ -172,26 +172,26 @@ const aisleData = [
       ],
       learningTitle: "What I Learned",
       learnings: [
-        "How agile ceremonies work in practice, not just in theory",
+        "How Agile ceremonies work in practice, not just in theory",
         "How coding standards and review processes shape a shared codebase",
         "How teams organise work, communicate, and deliver incrementally",
         "What it means to build changes safely in a production environment",
       ],
       takeaway:
-        "More than anything, this placement gave me my foundation. It was where I learned how modern frontend engineering works in a real team and where I started building the habits I would carry into the rest of the graduate scheme.",
+        "More than anything, this placement gave me my foundation. It was where I learned how modern frontend engineering works in a real team and where I started building the habits I would carry into the rest of the Graduate Scheme.",
     },
   },
   {
     id: "connect",
     label: "Connect",
     title: "Connect",
-    subtitle: "Full stack placement in Tesco's supply chain tooling platform",
+    subtitle: "Full Stack placement in Tesco's Supply Chain Tooling Platform",
     color: "#1f7a5a",
     position: [8, 0, -5],
     shelfSize: [1.7, 4.8, 9.5],
     markerOffset: [0, 0, -5.8],
     details: [
-      "Connect was my full stack placement within Tesco's supply chain tooling platform.",
+      "Connect was my Full Stack placement within Tesco's Supply Chain Tooling Platform.",
       "I worked in Spartans, a sub-team focused on upgrading and decommissioning OPS, a legacy system used by stores for stock forecasting data.",
       "This placement gave me exposure across both frontend and backend development, working with a React frontend, a Spring Boot backend, and an MSQL database.",
       "It helped me move beyond purely frontend work and understand how data, services, and user interfaces fit together in a larger operational platform.",
@@ -199,7 +199,7 @@ const aisleData = [
     presentation: {
       kicker: "Placement Focus",
       overview:
-        "Connect was a full stack placement in Tesco's supply chain tooling platform. I worked in Spartans, a sub-team focused on upgrading and decommissioning OPS, a legacy system that supported stores with stock forecasting data.",
+        "Connect was a Full Stack placement in Tesco's Supply Chain Tooling Platform. I worked in Spartans, a sub-team focused on upgrading and decommissioning OPS, a legacy system that supported stores with stock forecasting data.",
       cards: [
         {
           title: "What The Team Worked On",
@@ -233,29 +233,29 @@ const aisleData = [
     id: "identity",
     label: "Identity",
     title: "Identity",
-    subtitle: "Pure backend placement in Tesco Identity",
+    subtitle: "Pure Backend placement in Tesco Identity",
     color: "#7a3bb2",
     position: [13, 0, -5],
     shelfSize: [1.7, 4.8, 9.5],
     markerOffset: [0, 0, -5.8],
     details: [
-      "Identity was my third placement and it was a pure backend role in the Identifiers team.",
+      "Identity was my third placement and it was a pure backend role in the Identifiers Team.",
       "Identity is the system Tesco uses to verify users and colleagues, so it sits at the centre of a critical, high-volume platform.",
-      "The Identifiers team looks after the lifecycle of identifiers and the APIs responsible for actions such as registering new users, deleting users, and collapsing accounts together.",
+      "The Identifiers Team looks after the lifecycle of identifiers and the APIs responsible for actions such as registering new users, deleting users, and collapsing accounts together.",
       "This placement gave me experience working on backend systems where scale, accuracy, and reliability were essential.",
     ],
     presentation: {
       kicker: "Placement Focus",
       overview:
-        "Identity was my third placement and a pure backend role in the Identifiers team. The wider Identity platform is used by Tesco to verify users and colleagues, making it a high-volume and business-critical area of engineering.",
+        "Identity was my third placement and a pure backend role in the Identifiers Team. The wider Identity Platform is used by Tesco to verify users and colleagues, making it a high-volume and business-critical area of engineering.",
       cards: [
         {
           title: "What The Team Owned",
-          body: "The Identifiers team was responsible for the lifecycle of identifiers. That included backend APIs handling actions such as registering new users, deleting users, and collapsing or combining accounts together when needed.",
+          body: "The Identifiers Team was responsible for the lifecycle of identifiers. That included backend APIs handling actions such as registering new users, deleting users, and collapsing or combining accounts together when needed.",
         },
         {
           title: "Why It Mattered",
-          body: "Because Identity sits at the core of how users and colleagues are recognised and verified, the work had to be highly reliable. It was a platform where backend correctness, consistency, and scale were especially important.",
+          body: "Because Identity sits at the core of how users and colleagues are recognised and authenticated, the work had to be highly reliable. It was a platform where backend correctness, consistency, and scale were especially important.",
         },
       ],
       spotlightTitle: "Technology Used",
