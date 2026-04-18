@@ -192,6 +192,19 @@ select {
   width: 100vw;
 }
 
+.detail-panel.expanded:not(.open) {
+  transform: translateX(102%);
+}
+
+.detail-panel-content {
+  width: 100%;
+}
+
+.detail-panel.expanded .detail-panel-content {
+  width: min(75vw, 1100px);
+  margin: 0 auto;
+}
+
 .panel-subtitle {
   font-size: 1.1rem;
   color: #b7ddff;

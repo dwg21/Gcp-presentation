@@ -464,25 +464,27 @@ function App() {
         >
           Close
         </button>
-        <h2>{activeAisle.title}</h2>
-        <p className="panel-subtitle">{activeAisle.subtitle}</p>
-        {activeAisle.introPresentation ? (
-          <IntroPresentation aisle={activeAisle} />
-        ) : activeAisle.presentation ? (
-          <AislePresentation aisle={activeAisle} />
-        ) : (
-          <>
-            <ul>
-              {activeAisle.details.map((detail) => (
-                <li key={detail}>{detail}</li>
-              ))}
-            </ul>
-            <p className="panel-note">
-              Replace this placeholder copy with the real detail for each
-              placement, project area, or section of your graduate journey.
-            </p>
-          </>
-        )}
+        <div className="detail-panel-content">
+          <h2>{activeAisle.title}</h2>
+          <p className="panel-subtitle">{activeAisle.subtitle}</p>
+          {activeAisle.introPresentation ? (
+            <IntroPresentation aisle={activeAisle} />
+          ) : activeAisle.presentation ? (
+            <AislePresentation aisle={activeAisle} />
+          ) : (
+            <>
+              <ul>
+                {activeAisle.details.map((detail) => (
+                  <li key={detail}>{detail}</li>
+                ))}
+              </ul>
+              <p className="panel-note">
+                Replace this placeholder copy with the real detail for each
+                placement, project area, or section of your graduate journey.
+              </p>
+            </>
+          )}
+        </div>
       </div>
     </div>
   );
